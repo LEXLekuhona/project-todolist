@@ -1,8 +1,18 @@
-# React + Vite
+# Интерфейс пользователя:
+> [!NOTE]
+Отображен список задач:<br/>
+Пользователь имеет возможность добавлять новые задачи.<br/>
+Пользователь имеет возможность удалять задачи.<br/>
+Пользователь имеет возможность отмечать задачи как выполненные.<br/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> [!NOTE]
+Реализация:<br/>
+Используйется React для создания пользовательского интерфейса.<br/>
+Для управления состоянием используйте Redux Toolkit.<br/>
+Создайте необходимые actions, reducers и store для работы с задачами.<br/>
+Для стилизации компонентов используется bootstrap.<br/>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Install
+> [!IMPORTANT]
+yarn install <br/>
+yarn run dev
